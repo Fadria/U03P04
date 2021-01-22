@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body{
+	font-family: "Open Sans", sans-serif;
+}
+
+/*********************/
+/* ESTILOS CABECERA */
+/*******************/
+
+#cabecera{
+	padding: 6px;
+	margin-right: 10%;
+	margin-left: 10%;
+	margin-bottom: 12px;
+}
+
+#logoAules{
+	height: 80px;
+	margin-left: 50px;
+}
+
+#logoAules{
+	cursor: pointer;
+}
+
+#cabeceraDerecha{
+	float: right;
+	position: relative;
+	top: -12px;
+}
+
+#buscador{
+	height: 30px;
+	display: inline-block;
+	float: right;
+	position: relative;
+	top: -10px;
+}
+
+#iconoBuscador{
+	height: 15px;
+	border: 1px solid black;
+	position: relative;
+	left: -5px;
+	top: 2px;
+	background: url("../images/search_red_invertido.png");
+	background-size: cover;
+}
+
+#iconoBuscador:hover{
+	cursor: pointer;
+}
+
+#buscador form{
+	display: inline-block;
+}
+
+input[type=search]{
+	font-weight: bold;
+	text-indent: 20px;
+	height: 15px;
+	width: 108px;
+	font-size: 11px;
+}
+
+
+#conselleria{
+	color: #c80f2e;
+	font-size: 15px;
+}
+
+.idiomas{
+	color: #c80f2e;
+	text-decoration: none;
+	font-size: 0.86em;
+}
+
+.idiomas:hover{
+	text-decoration: underline;
+
+}
+
+#imagenBienvenida{
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-top: 40px;
+}
+
+/* FIN ESTILOS CABECERA */
+
+
+
+/*********************/
+/*** ESTILOS MENÚ ***/
+/*******************/
+#menu{
+	font-size: 15px;
+	color: #c80f2e;
+	border-top: 1px solid #C80F2E;
+}
+
+#listadoMenu{
+	margin-left: 7%;
+}
+
+.seccionMenu{
+	height: 50px;
+	list-style-type: none;
+	display: inline-block;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	vertical-align: middle;
+	line-height: 50px;
+	margin-right: -5px;
+	position: relative;
+	top: -15px;
+}
+
+.seccionMenu:hover{
+	background-color: #e5e5e5;
+	cursor: pointer;
+}
+
+.seccionMenu a{
+	text-decoration: none;
+	color: black;
+}
+
+/* FIN ESTILOS MENÚ */
+
+
+
+/*********************/
+/** ESTILOS CUERPO **/
+/*******************/
+
+#cuerpo{
+	margin-left: 18%;
+	margin-right: 18%;
+	margin-bottom: 100px;
+}
+
+#cuerpo h1{
+	font-size: 40px;
+}
+
+#cuerpo h2{
+	font-size: 30px;
+}
+
+#cuerpo p{
+	text-align: justify;
+}
+
+.plataformas{
+	width: 30%;
+	margin-left: 1%;
+	margin-right: 1%;
+	margin-bottom: 40px;
+}
+
+#novedades li{
+	font-size: 17px;
+	margin-left: 15px;
+}
+
+/* FIN ESTILOS CUERPO */
+
+
+
+/***********************/
+/* ESTILOS R.SOCIALES */
+/*********************/
+
+#redes{
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-bottom: 60px;
+	font-size: 16px;
+}
+
+#redes li{
+	list-style-type: none;
+	display: inline-block;
+}
+
+.iconoRed{
+	height: 32px;
+	border-radius: 15%;
+}
+
+.iconoRed:hover{
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+.iconoExtraRed{
+	height: 24px;
+	border-radius: 15%;	
+	vertical-align: middle;
+	line-height: 50px;
+}
+
+#extraPlus{
+	text-align: center;
+}
+
+#iconosExtraRed{
+	display: none;
+	width: 300px;
+	background-color: #2A2A2A;
+	border-radius: 3%;
+	color: white;
+    position: absolute;
+    left: 25%;
+}
+
+#iconosExtraRed td{
+	width: 150px;
+	padding: 7px;
+}
+
+#iconoPlus:hover #iconosExtraRed{
+    display: block;
+}
+
+#iconoPlus td:hover{
+	background-color: #444444;
+	cursor: pointer;
+}
+
+/* FIN ESTILOS REDES SOCIALES*/
+
+
+
+/*********************/
+/** ESTILOS FOOTER **/
+/*******************/
+
+#footer{
+	text-align: center;
+	font-size: 14px;
+	border-top: 1px solid #C80F2E;
+}
+
+#footer a{
+	text-decoration: none;
+	color: #1E73C0;
+}
+
+#footer a:hover{
+	color: black;
+}
+
+#banderaEuropa{
+	height: 40px;
+ 	display: block;
+ 	margin-top: 25px;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+/* FIN ESTILOS FOOTER */
